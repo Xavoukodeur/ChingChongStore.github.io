@@ -1,0 +1,126 @@
+/*Reset de la page*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+/*Ensemble des variables*/
+html {
+	--main-border: #974a47;
+	--selected-border: red;
+	--border-size: 4px;
+	--main-police: Arial, Helvetica, Liberation Sans, FreeSans, sans-serif;
+	--main-background-color: white;
+}
+
+/*Parametre que l'on veut appliqué a l'esemble de la page*/
+body {
+	display: block;
+	margin: 0px auto;
+	text-align: center;
+	font-family: var(--main-police);
+	background-color: var(--main-background-color);
+}
+
+/*haut de page*/
+header {
+	margin: 0px auto;
+	padding-top: 30px;
+	background-color: white;
+}
+
+/*limite l'espacement des contenuts dans le header*/
+.header-footer-div {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;	
+	width: 92%;
+	max-width: 1920px;
+	margin: 0px auto;
+	min-height: 137px;
+	overflow: hidden;
+}
+
+/*Titre "Ching Chong Store"*/
+.main-title {
+	border: var(--border-size) solid var(--selected-border);
+	padding: 10px 20px;
+	color: black;
+	font-size: 35px;
+	width: 320px;
+	pointer-events: none;
+	user-select: none;
+}
+
+/*Tous les onglets en haut a droite de la page*/
+.every-onglets {
+	position: relative;
+	top: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	width: 650px;
+	font-size: 25px;
+	font-family: var(--main-police);
+	user-select: none;
+}
+
+/*Modification qui s'applique au text */
+.every-onglets > a {
+	font-weight: bold;
+	padding: 7px;
+	color: black;
+	max-height: 50px;
+}
+
+/*s'applique au text de l'onglet actuel*/
+.current-onglet {
+	border-bottom: var(--border-size) solid var(--selected-border);
+}
+
+/*s'applique aux texts des autres onglets*/
+.onglet {
+	border-bottom: var(--border-size) solid var(--main-border);
+}
+
+footer {
+	padding-top: 30px;
+	background-color: white;
+}
+
+#every-pages-section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 1000px;
+	text-align: left;
+}
+
+.every-pages-ul {
+	position: relative;
+	left: 18px;
+}
+
+.every-pages-a {
+	text-decoration: underline;
+	color: black;
+}
+
+#social-network {
+	position: relative;
+	text-align: right;
+}
+
+#social-network > h3 {
+	margin: 0px 60px 5px 0px;
+	color: darkgray;
+}
+
+#social-network > a > img {
+	width: 50px;
+	height: 50px;
+	margin: 0px 20px;
+}
+

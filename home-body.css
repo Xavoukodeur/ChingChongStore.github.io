@@ -1,0 +1,51 @@
+.background {
+  background-color: black;
+  background-position: center;
+  height: 900px;
+}
+
+#premstext {
+  text-align: center;
+  padding-top: 300px;
+  color: white;
+  font-size: 69px;
+}
+
+#butonbutik {
+  text-align: center;
+  margin: 50px 0px 400px 0px;
+  user-select: none;
+}
+
+#prems {
+  background: url(image/accueil/accueil-fond-boutique.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+}
+
+#secs {
+  background: url(image/accueil/taiwanhighlight.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #F6F6F8;
+}
+
+#troiz {
+  background: url(image/accueil/binghighlight.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+}
+
+#taiwan-decouvrir {
+  position: relative;
+  top: 600px;
+  left: 480px;
+}
+
+#chilling-decouvrir {
+  position: relative;
+  top: 500px;
+  left: 625px;
+}

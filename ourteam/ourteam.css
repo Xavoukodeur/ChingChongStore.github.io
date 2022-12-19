@@ -1,0 +1,45 @@
+.limitation-div {
+    padding: 50px 0px;
+    margin: 0px auto;
+    text-align: left;
+    width: 100%;
+    background-color: #E2E2E2;
+}
+
+#person-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.person-div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.person-article {
+    display: flex;
+    justify-content: center;
+    margin: 20px 40px;
+    flex-wrap: wrap;
+    background-color: white;
+    filter: drop-shadow(10px 10px 4px #CECECE);
+    min-height: 256px;
+
+}
+
+.person-description {
+    text-align: justify;
+    font-size: 30px;
+    margin: 25px 40px;
+    min-width: 256px;
+    max-width: 460px;
+    max-height: 256px;
+}
+
+.person-img {
+    max-width: 256px;
+    max-height: 256px;
+    border: 2px solid gray;
+}
